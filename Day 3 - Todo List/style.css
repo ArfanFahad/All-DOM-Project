@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.todo_form {
+    padding: 20px;
+}
+
+#myInput {
+    padding: 5px;
+    width: 400px;
+    border: 2px solid gray;
+}
+
+#submit_btn {
+    padding: 5px 15px;
+    margin-left: 20px;
+}
+
+.todo_list li {
+    display: flex;
+    margin-left: 20px;
+    padding: 15px 30px;
+    background-color: dodgerblue;
+    width: 30%;
+}
+
+.todo_list {
+    color: white;
+    font-size: 25px;
+    position: relative;
+}
+
+#text {
+    color: yellow;
+    position: absolute;
+    margin-top: 4px;
+}
+
+
+
+.todo_buttons {
+    margin-left: 328px;
+}
+
+.todo_btn {
+    padding: 8px 15px;
+    
+}
+
+
