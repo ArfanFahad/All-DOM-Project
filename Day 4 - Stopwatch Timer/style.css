@@ -1,0 +1,86 @@
+
+body {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Fira Code';
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.container {
+    background-color: green;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer {
+    font-size: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    animation: pulse 1.5s infinite alternate;
+}
+
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
+}
+
+.timer span {
+    width: 110px;
+    display: inline-block;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #ffff;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #d772a7;
+    color: white;
+}
+
+.laps {
+    background-color: plum;
+    padding: 8px 160px;
+    border-radius: 8px;
+}
+
+.laps ul {
+    background-color: aliceblue;
+    padding: 5px 20px;
+}
+
+
+
